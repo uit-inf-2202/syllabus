@@ -9,16 +9,92 @@ Administrative course information is available [here](https://uit.no/studietilbu
 We use the [inf-2202-f15@list.uit.no](https://list.uit.no/sympa/info/inf-2202-f15) mailing list to send important information.
 
 We have the following rooms and hours:
+
 - Tuesdays 14:15-16:00, A016.
 - Thursdays 14:15-16:00, 2.019AUD (Teknobygget).
 - Fridays 10:15-11:00, A016. (We will not usually use this hour)
 
 ## Staff
 
+- Lars Ailo Bongo (larsab@cs.uit.no), Office: A259
+- Ibrahim Umar (ibrahim.umar@uit.no), Office: A2??
+
 ## Lecture plan
+
+| Lecture 	| Date		| Subject	| Lecturer |
+|-----------|-----------|-----------|----------|
+| L1  | Fri 14.08 | Introduction | Lars Ailo |
+| L2  | Thu 20.08 | Threads and synchronization primitives	| Lars Ailo |
+| L3  | Thu 27.08 | Guest lecture: Go						| Giacomo Tartari |
+| L4  | Thu 03.09 | Parallel architectures					| Lars Ailo |
+| L5  | Thu 10.09 | Parallel programs						| Lars Ailo |
+| L6  | Tue 15.09 | Programming for performance				| Lars Ailo |
+| L7  | Thu 24.09 | Performance evaluation					| Lars Ailo |
+| L8  | Thu 01.10 | Parallel program performance evaluation | Lars Ailo |
+| L9  | Thu 08.10 | Guest lecture: Scala					| Inge Alexander Raknes |
+| L10 | Thu 15.10 | Data-intensive computing				| Lars Ailo |
+| L11 | Thu 22.10 | Spark									| Lars Ailo |
+| L12 | Thu 29.10 | Data analytics							| Lars Ailo |
+| L13 | Thu 05.11 | Event based programming or guest lecture | Lars Ailo |
+| L14 | Thu 12.11 | Summary									| Lars Ailo |
+|	  | Thu 19.11 | Backup slot 							| |
+|	  | Thu 26.11 | Exam 									| |
 
 ## Readings
 
+**Mandatory** unless otherwise noted:
+
+1. Introduction
+  * None
+2. Threads and synchronization primitives (operating systems course recap):
+  * Modern operating systems, 3ed, Andrew S. Tanenbaum. Prentice Hall. 2007. Chapters: 2.2, 2.3, 2.5, 10.3, 11.4
+  * Alternative to MOS: another operating systems textbook: the chapters about threading, IPC mechanisms, and classical IPC problems.
+
+The following are suggested **additional readings**:
+
+* Parallel Computer Architecture: A Hardware/Software Approach. David Culler, J.P. Singh, Anoop Gupta. Morgan Kaufmann. 1998.
+  * This book has a great introduction to parallel programming.
+ * There is one copy in the library. Please be nice to your fellow students and do not lend that copy for an extended period.
+* The Art of Computer Systems Performance Analysis: Techniques for Experimental Design, Measurement, Simulation, and Modeling. R. K. Jain. Wiley. 1991.
+  * A very good book about performance analysis.
+  * There is one copy in the library. Please be nice to your fellow students and do not lend that copy for an extended period.
+* Computer Architecture, Fifth Edition: A Quantitative Approach, 5ed. John L. Hennessy, David A. Patterson. Morgan Kaufmann. 2011.
+  * This book has a throughout description of different parallel architectures.
+  * You can purchase this book from your favorite bookstore.
+* The Fourth Paradigm: Data-Intensive Scientific Discovery. Edited by Tony Hey, Stewart Tansley, and Kristin Tolle. 2010.
+  * This collection of essays describe many of the opportunities and challenges for data-intensive computing in different scientific fields.
+  * The book is freely available as an ebook.
+* Hadoop: The Definitive Guide, 3ed. Tom White. O’Reilly. 2012.
+  * Nice overview of the Hadoop ecosystem, included detailed description of HDFS and hadoop MapReduce.
+  * This book is available in the library as a Safari ebook.
+* HBase: The Definitive Guide. Lars George. O’Reilly. 2012.
+  * Detailed description of HBase included tips for tuning the system.
+  * This book is available in the library as a Safari ebook.
+* Learning Spark. Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia. O’Reilly. 2015.
+* Advanced Analytics with Spark. Sandy Ryza, Uri Laserson, Sean Owen, Josh Wills. O’Reilly. 2015.
+
 ## Mandatory assignments
 
+| Project |	Date       | Subject | Lecturer |
+|---------|------------|---------|----------|
+| P1 	  | 18.08.2015 | | Ibrahim |
+| P1 due  |            |  |  |
+| P2	  |            |  |  |
+| P2 due  |            |  |  |
+| P3      |            |  |  |
+| P3 due  |            |  | . |
+
+
 ## Exercises
+
+1. Introduction
+  1.  None
+2. Threads and synchronization primitives
+  1. Compare the overhead of forking a process vs. creating a Pthread
+  2. Compare the overhead of forking a process vs. creating a Python thread
+  3. Implement a solution the following classical IPC problems using pthreads/Python threads and semaphores/condition variables. Note that you also need to generate a use case, test data, and useful output:
+    1. Producer/ consumer
+    2. Reader/ writer
+    3. Sleeping barber
+    4. Dining philosophers
+  4. Modify the code in 3) to use message passing.
