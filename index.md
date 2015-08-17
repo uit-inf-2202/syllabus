@@ -17,7 +17,7 @@ We have the following rooms and hours:
 ## Staff
 
 - Lars Ailo Bongo (larsab@cs.uit.no), Office: A259
-- Ibrahim Umar (ibrahim.umar@uit.no), Office: A2??
+- Ibrahim Umar (ibrahim.umar@uit.no), Office: A238
 
 ## Lecture plan
 
@@ -98,5 +98,3 @@ The following are suggested **additional readings**:
     3. Sleeping barber
     4. Dining philosophers
   4. Modify the code in 3) to use message passing.
-
-
