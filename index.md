@@ -23,7 +23,7 @@ We have the following rooms and hours:
 
 | Lecture 	| Date		| Subject	| Lecturer |
 |-----------|-----------|-----------|----------|
-| L1  | Fri 14.08 | Introduction | Lars Ailo |
+| L1  | Fri 14.08 | [Introduction](lectures/01-introduction.pptx) | Lars Ailo |
 | L2  | Thu 20.08 | Threads and synchronization primitives	| Lars Ailo |
 | L3  | Thu 27.08 | Guest lecture: Go						| Giacomo Tartari |
 | L4  | Thu 03.09 | Parallel architectures					| Lars Ailo |
@@ -98,3 +98,5 @@ The following are suggested **additional readings**:
     3. Sleeping barber
     4. Dining philosophers
   4. Modify the code in 3) to use message passing.
+
+
