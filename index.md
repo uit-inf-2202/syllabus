@@ -78,7 +78,7 @@ The following are suggested **additional readings**:
 | Project |	Date       | Subject | Lecturer |
 |---------|------------|---------|----------|
 | P1 	  | 18.08.2015 | | Ibrahim |
-| P1 due  |            |  |  |
+| P1 due  | 14.09.2015           |  |  |
 | P2	  |            |  |  |
 | P2 due  |            |  |  |
 | P3      |            |  |  |
