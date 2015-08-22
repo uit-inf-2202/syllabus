@@ -81,7 +81,7 @@ The following are suggested **additional readings**:
 | P2	  |            |  |  | | 
 | P3      |            |  |  | . |
 
-Note! The mandatory assignment text and pre-code are available in private repository accessible only for the members of the uit-inf-2202 organization. 
+Note! The mandatory assignment text and pre-code are available in private repositories accessible only for the members of the uit-inf-2202 github organization. 
 
 ## Exercises
 
