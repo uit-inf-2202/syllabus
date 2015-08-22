@@ -45,10 +45,18 @@ We have the following rooms and hours:
 **Mandatory** unless otherwise noted:
 
 1. Introduction
-  * None
+	* None
 2. Threads and synchronization primitives (operating systems course recap):
-  * Modern operating systems, 3ed, Andrew S. Tanenbaum. Prentice Hall. 2007. Chapters: 2.2, 2.3, 2.5, 10.3, 11.4
-  * Alternative to MOS: another operating systems textbook: the chapters about threading, IPC mechanisms, and classical IPC problems.
+	* Modern operating systems, 3ed, Andrew S. Tanenbaum. Prentice Hall. 2007. Chapters: 2.2, 2.3, 2.5, 10.3, 11.4
+	* Alternative to MOS: another operating systems textbook: the chapters about threading, IPC mechanisms, and classical IPC problems.
+3. Go
+	* Rob Pike. [SPLASH keynote talk](http://talks.golang.org/2012/splash.article)
+	* [A tour of Go](http://tour.golang.org/)
+	* [How to write Go code](http://golang.org/doc/code.html)
+	* [Effective Go](http://golang.org/doc/effective_go.html)
+	* Go concurrency patterns ([video](http://www.youtube.com/watch?v=f6kdp27TYZs), [slides](http://talks.golang.org/2012/concurrency.slide#1))
+	* Advanced Go concurrecny patterns ([video](https://www.youtube.com/watch?v=QDDwwePbDtw), [slides](http://talks.golang.org/2013/advconc.slide#1))
+
 
 The following are suggested **additional readings**:
 
