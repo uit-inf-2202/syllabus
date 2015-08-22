@@ -24,7 +24,7 @@ We have the following rooms and hours:
 | Lecture 	| Date		| Subject	| Lecturer |
 |-----------|-----------|-----------|----------|
 | L1  | Fri 14.08 | [Introduction](lectures/01-introduction.pptx) | Lars Ailo |
-| L2  | Thu 20.08 | Threads and synchronization primitives	| Lars Ailo |
+| L2  | Thu 20.08 | [Threads and synchronization primitives](lectures/02-threads-synchronization.pptx)	| Lars Ailo |
 | L3  | Thu 27.08 | Guest lecture: Go						| Giacomo Tartari |
 | L4  | Thu 03.09 | Parallel architectures					| Lars Ailo |
 | L5  | Thu 10.09 | Parallel programs						| Lars Ailo |
@@ -37,8 +37,8 @@ We have the following rooms and hours:
 | L12 | Thu 29.10 | Data analytics							| Lars Ailo |
 | L13 | Thu 05.11 | Event based programming or guest lecture | Lars Ailo |
 | L14 | Thu 12.11 | Summary									| Lars Ailo |
-|	  | Thu 19.11 | Backup slot 							| |
-|	  | Thu 26.11 | Exam 									| |
+|	  | Thu 19.11 | Backup slot 							| - |
+|	  | Thu 26.11 | Exam 									| - |
 
 ## Readings
 
@@ -53,48 +53,46 @@ We have the following rooms and hours:
 The following are suggested **additional readings**:
 
 * Parallel Computer Architecture: A Hardware/Software Approach. David Culler, J.P. Singh, Anoop Gupta. Morgan Kaufmann. 1998.
-  * This book has a great introduction to parallel programming.
- * There is one copy in the library. Please be nice to your fellow students and do not lend that copy for an extended period.
+	* This book has a great introduction to parallel programming.
+	* There is one copy in the library. Please be nice to your fellow students and do not lend that copy for an extended period.
 * The Art of Computer Systems Performance Analysis: Techniques for Experimental Design, Measurement, Simulation, and Modeling. R. K. Jain. Wiley. 1991.
-  * A very good book about performance analysis.
-  * There is one copy in the library. Please be nice to your fellow students and do not lend that copy for an extended period.
+	* A very good book about performance analysis.
+	* There is one copy in the library. Please be nice to your fellow students and do not lend that copy for an extended period.
 * Computer Architecture, Fifth Edition: A Quantitative Approach, 5ed. John L. Hennessy, David A. Patterson. Morgan Kaufmann. 2011.
-  * This book has a throughout description of different parallel architectures.
-  * You can purchase this book from your favorite bookstore.
+	* This book has a throughout description of different parallel architectures.
+	* You can purchase this book from your favorite bookstore.
 * The Fourth Paradigm: Data-Intensive Scientific Discovery. Edited by Tony Hey, Stewart Tansley, and Kristin Tolle. 2010.
-  * This collection of essays describe many of the opportunities and challenges for data-intensive computing in different scientific fields.
-  * The book is freely available as an ebook.
+	* This collection of essays describe many of the opportunities and challenges for data-intensive computing in different scientific fields.
+	* The book is freely available as an ebook.
 * Hadoop: The Definitive Guide, 3ed. Tom White. O’Reilly. 2012.
-  * Nice overview of the Hadoop ecosystem, included detailed description of HDFS and hadoop MapReduce.
-  * This book is available in the library as a Safari ebook.
+	* Nice overview of the Hadoop ecosystem, included detailed description of HDFS and hadoop MapReduce.
+	* This book is available in the library as a Safari ebook.
 * HBase: The Definitive Guide. Lars George. O’Reilly. 2012.
-  * Detailed description of HBase included tips for tuning the system.
-  * This book is available in the library as a Safari ebook.
+	* Detailed description of HBase included tips for tuning the system.
+	* This book is available in the library as a Safari ebook.
 * Learning Spark. Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia. O’Reilly. 2015.
 * Advanced Analytics with Spark. Sandy Ryza, Uri Laserson, Sean Owen, Josh Wills. O’Reilly. 2015.
 
 ## Mandatory assignments
 
-| Project |	Date       | Subject | Lecturer |
-|---------|------------|---------|----------|
-| P1 	  | 18.08.2015 | | Ibrahim |
-| P1 due  | 14.09.2015           |  |  |
-| P2	  |            |  |  |
-| P2 due  |            |  |  |
-| P3      |            |  |  |
-| P3 due  |            |  | . |
+| Project |	Start      | Due     | Subject | Lecturer |
+|---------|------------|---------|----------|---------|
+| P1 	  | 18.08.15   | 14.09.15 | [Concurrent B+ trees](https://github.com/uit-inf-2202/assignment-1) | Ibrahim |
+| P2	  |            |  |  | | 
+| P3      |            |  |  | . |
 
+Note! The mandatory assignment text and pre-code are available in private repository accessible only for the members of the uit-inf-2202 organization. 
 
 ## Exercises
 
 1. Introduction
-  1.  None
+	1.  None
 2. Threads and synchronization primitives
-  1. Compare the overhead of forking a process vs. creating a Pthread
-  2. Compare the overhead of forking a process vs. creating a Python thread
-  3. Implement a solution the following classical IPC problems using pthreads/Python threads and semaphores/condition variables. Note that you also need to generate a use case, test data, and useful output:
-    1. Producer/ consumer
-    2. Reader/ writer
-    3. Sleeping barber
-    4. Dining philosophers
-  4. Modify the code in 3) to use message passing.
+	1. Compare the overhead of forking a process vs. creating a Pthread
+	2. Compare the overhead of forking a process vs. creating a Python thread
+	3. Implement a solution the following classical IPC problems using pthreads/Python threads and semaphores/condition variables. Note that you also need to generate a use case, test data, and useful output:
+		1. Producer/ consumer
+		2. Reader/ writer
+		3. Sleeping barber
+		4. Dining philosophers
+	4. Modify the code in 3) to use message passing.
