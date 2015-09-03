@@ -105,4 +105,5 @@ Note! The mandatory assignment text and pre-code are available in private reposi
 		4. Dining philosophers
 	4. Modify the code in 3) to use message passing.
 3. Go
-	1. Implement the classical IPC problems in exercise 2.3. in Go.
+	1. [Take a tour of Go](http://tour.golang.org/welcome/1)
+	2. Implement the classical IPC problems in exercise 2.3. in Go.
