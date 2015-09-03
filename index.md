@@ -104,3 +104,5 @@ Note! The mandatory assignment text and pre-code are available in private reposi
 		3. Sleeping barber
 		4. Dining philosophers
 	4. Modify the code in 3) to use message passing.
+3. Go
+	1. Implement the classical IPC problems in exercise 2.3. in Go.
