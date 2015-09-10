@@ -27,7 +27,7 @@ We have the following rooms and hours:
 | L2  | Thu 20.08 | [Threads and synchronization primitives](lectures/02-threads-synchronization.pptx)	| Lars Ailo |
 | L3  | Thu 27.08 | Guest lecture: [Go](lectures/03-Go-Language.pdf)	| Giacomo Tartari |
 | L4  | Thu 03.09 | [Parallel architectures](lectures/04-hardware-system.pptx)	| Lars Ailo |
-| L5  | Thu 10.09 | Parallel programs						| Lars Ailo |
+| L5  | Thu 10.09 | [Parallel programs](lectures/05-parallel-programs.pptx) | Lars Ailo |
 | L6  | Tue 15.09 | Programming for performance				| Lars Ailo |
 | L7  | Thu 24.09 | Performance evaluation					| Lars Ailo |
 | L8  | Thu 01.10 | Parallel program performance evaluation | Lars Ailo |
@@ -107,3 +107,8 @@ Note! The mandatory assignment text and pre-code are available in private reposi
 3. Go
 	1. [Take a tour of Go](http://tour.golang.org/welcome/1)
 	2. Implement the classical IPC problems in exercise 2.3. in Go.
+4. Parallel architectures
+	1. None
+5.  Parallel programs
+	1. Implement a simpliefied BLAST search program in Go that does similarity search on two lists of random DNA sequences.
+	2. Implement a heat distribution program using Pthreads or (/and) Go.
