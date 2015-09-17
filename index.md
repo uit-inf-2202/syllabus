@@ -86,8 +86,8 @@ The following are suggested **additional readings**:
 | Project |	Start      | Due     | Subject | Lecturer |
 |---------|------------|---------|----------|---------|
 | P1 	  | 18.08.15   | 14.09.15 | [Concurrent B+ trees](https://github.com/uit-inf-2202/assignment-1) | Ibrahim |
-| P2	  |            |  |  | | 
-| P3      |            |  |  | . |
+| P2	  | 17.09.15   | 12.10.15 | Deduplication | Ibrahim | 
+| P3      | 13.10.15   | 06.11.15 | | |
 
 Note! The mandatory assignment text and pre-code are available in private repositories accessible only for the members of the uit-inf-2202 github organization. 
 
