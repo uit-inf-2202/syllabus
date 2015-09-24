@@ -29,7 +29,7 @@ We have the following rooms and hours:
 | L4  | Thu 03.09 | [Parallel architectures](lectures/04-hardware-system.pptx)	| Lars Ailo |
 | L5  | Thu 10.09 | [Parallel programs](lectures/05-parallel-programs.pptx) | Lars Ailo |
 | L6  | Tue 15.09 | [Programming for performance](lectures/06-programming-for-performance.pptx)	| Lars Ailo |
-| L7  | Thu 24.09 | Performance evaluation					| Lars Ailo |
+| L7  | Thu 24.09 | [Performance evaluation](lectures/07-performance-evaluation.pptx) | Lars Ailo |
 | L8  | Thu 01.10 | Parallel program performance evaluation | Lars Ailo |
 | L9  | Thu 08.10 | Guest lecture: Scala					| Inge Alexander Raknes |
 | L10 | Thu 15.10 | Data-intensive computing				| Lars Ailo |
