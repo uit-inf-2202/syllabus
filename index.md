@@ -85,7 +85,7 @@ The following are suggested **additional readings**:
 
 | Project |	Start      | Due     | Subject | Lecturer |
 |---------|------------|---------|----------|---------|
-| P1 	  | 18.08.15   | 14.09.15 | [Concurrent B+ trees](https://github.com/uit-inf-2202/assignment-1) | Ibrahim |
+| P1 	  | 18.08.15   | 14.09.15 | Concurrent B+ trees ([repository](https://github.com/uit-inf-2202/assignment-1)) and ([public zip](assignments/assignment-1.zip)) | Ibrahim |
 | P2	  | 17.09.15   | 12.10.15 | Deduplication | Ibrahim | 
 | P3      | 13.10.15   | 06.11.15 | | |
 
