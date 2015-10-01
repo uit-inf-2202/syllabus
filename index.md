@@ -30,9 +30,9 @@ We have the following rooms and hours:
 | L5  | Thu 10.09 | [Parallel programs](lectures/05-parallel-programs.pptx) | Lars Ailo |
 | L6  | Tue 15.09 | [Programming for performance](lectures/06-programming-for-performance.pptx)	| Lars Ailo |
 | L7  | Thu 24.09 | [Performance evaluation](lectures/07-performance-evaluation.pptx) | Lars Ailo |
-| L8  | Thu 01.10 | Parallel program performance evaluation | Lars Ailo |
-| L9  | Thu 08.10 | Guest lecture: Scala					| Inge Alexander Raknes |
-| L10 | Thu 15.10 | Data-intensive computing				| Lars Ailo |
+| L8  | Thu 01.10 | [Parallel program performance evaluation](lectures/08-parallel-program-performance.pptx) | Lars Ailo |
+| L9  | Thu 15.10 | Data-intensive computing				| Lars Ailo |
+| L10 | Thu 08.10 | Guest lecture: Scala					| Inge Alexander Raknes |
 | L11 | Thu 22.10 | Spark									| Lars Ailo |
 | L12 | Thu 29.10 | Data analytics							| Lars Ailo |
 | L13 | Thu 05.11 | Event based programming or guest lecture | Lars Ailo |
@@ -42,7 +42,7 @@ We have the following rooms and hours:
 
 ## Readings
 
-**Mandatory** unless otherwise noted:
+All lecture noets are **Mandatory**, and in addition unless otherwise noted:
 
 1. Introduction
 	* None
@@ -56,7 +56,18 @@ We have the following rooms and hours:
 	* [Effective Go](http://golang.org/doc/effective_go.html)
 	* Go concurrency patterns ([video](http://www.youtube.com/watch?v=f6kdp27TYZs), [slides](http://talks.golang.org/2012/concurrency.slide#1))
 	* Advanced Go concurrecny patterns ([video](https://www.youtube.com/watch?v=QDDwwePbDtw), [slides](http://talks.golang.org/2013/advconc.slide#1))
-
+4. Parallel architectures
+	* Computer Organization and Design: the Hardware/Software Interface, 4ed. David A. Patterson, John L. Hennessy. Morgan Kaufmann. 2011. Chapter 8: “Multicores, Multiprocessors, and Clusters”.
+5.	Parallel programs
+	* None
+6. Programming for performance
+	* None
+7.	Performance evaluation
+	* None
+8.	Parallel performance evaluation
+	* [Amdahl’s law](http://dl.acm.org/citation.cfm?id=1465560)
+	* [Gustafson’s law](http://dl.acm.org/citation.cfm?id=42415)
+	* [Debunking the 100X GPU vs. CPU myth: an evaluation of throughput computing on CPU and GPU](http://dl.acm.org/citation.cfm?id=1816021) or [Can traditional programming bridge the ninja performance gap for parallel computing applications?](http://dl.acm.org/citation.cfm?id=2766485.2742910)
 
 The following are suggested **additional readings**:
 
@@ -114,5 +125,9 @@ Note! The mandatory assignment text and pre-code are available in private reposi
 	2. Implement a heat distribution program using Pthreads or (/and) Go.
 6. Programming for performance
 	1. Implement a tuple space in Python with semantics similar to Linda. Use your tuple space to implement a parallel version of Mandelbrot that uses dynamic assignment (pool of tasks).
+7. Performance evaluation
+	* None
+8. Parallel program performance evaluation
+	*  Go through either the [debunking](http://dl.acm.org/citation.cfm?id=1816021) or [ninja](http://dl.acm.org/citation.cfm?id=2766485.2742910) paper and find out how they did each of the “Steps for a performance evaluation study”.
 
 
