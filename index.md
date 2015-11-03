@@ -33,10 +33,10 @@ We have the following rooms and hours:
 | L8  | Thu 01.10 | [Parallel program performance evaluation](lectures/08-parallel-program-performance.pptx) | Lars Ailo |
 | -   | Thu 08.10 | Cancelled due to a major water leak!	| - |
 | L10 | Thu 15.10 | Guest lecture: Scala and Spark			| Inge Alexander Raknes |
-| L9  | Thu 22.10 | Data-intensive computing				| Lars Ailo |
-| L11 | Thu 29.10 | Data analytics							| Lars Ailo |
-| L12 | Thu 05.11 | Advanced data analytics					| Lars Ailo |
-| L13 | Thu 12.11 | Guest lecture and/or summary			| Lars Ailo |
+| L9  | Thu 22.10 | [Data-intensive computing](lectures/10-data-intensive-computing.pptx) | Lars Ailo |
+| L11 | Thu 29.10 | [Spark libraries](lectures/11-spark-libraries.pptx) | Lars Ailo |
+| -   | Thu 05.11 | Cancelled 	| Lars Ailo |
+| L12 | Thu 12.11 | Guest lecture and/or summary			| Lars Ailo |
 |	  | Thu 19.11 | Backup slot 							| - |
 |	  | Thu 26.11 | Exam 									| - |
 
@@ -68,6 +68,15 @@ All lecture noets are **Mandatory**, and in addition unless otherwise noted:
 	* [Amdahl’s law](http://dl.acm.org/citation.cfm?id=1465560)
 	* [Gustafson’s law](http://dl.acm.org/citation.cfm?id=42415)
 	* [Debunking the 100X GPU vs. CPU myth: an evaluation of throughput computing on CPU and GPU](http://dl.acm.org/citation.cfm?id=1816021) or [Can traditional programming bridge the ninja performance gap for parallel computing applications?](http://dl.acm.org/citation.cfm?id=2766485.2742910)
+9.	Data-intensive computing
+	* "Jim Gray on eScience", and chapters 1 and 2 from The Fourth Paradigm: Data-Intensive Scientific Discovery. Edited by Tony Hey, Stewart Tansley, and Kristin Tolle. 2010.
+	* Optional: [Google File System paper](research.google.com/archive/gfs-sosp2003.pdf)
+	* Optional: [MapReduce paper](http://cacm.acm.org/magazines/2010/1/55744-mapreduce-a-flexible-data-processing-tool/fulltext)
+	* Optional: [Exascale Computing and Big Data](http://cacm.acm.org/magazines/2015/7/188732-exascale-computing-and-big-data/fulltext)
+10. Scala and Spark
+	* None
+11. Spark libraries
+	* Optional: videos, slides, and research papers at: http://spark.apache.org/documentation.html
 
 The following are suggested **additional readings**:
 
@@ -129,5 +138,14 @@ Note! The mandatory assignment text and pre-code are available in private reposi
 	* None
 8. Parallel program performance evaluation
 	*  Go through either the [debunking](http://dl.acm.org/citation.cfm?id=1816021) or [ninja](http://dl.acm.org/citation.cfm?id=2766485.2742910) paper and find out how they did each of the “Steps for a performance evaluation study”.
+9.	Data-intensive computing
+	* Create an account at AWS and calculate the approximate cost for analyzing 1TB and 1PB of data.
+	* Implement word count in MapReduce and run it on uvrocks or AWS.
+	* Implement grep in MapReduce and run it on uvrocks or AWS.
+10.	Scala and Spark
+	* Run the provided WordCount in assignment 3 on AWS
+	* Implement grep in Scala and run it on AWS
+11. Scala libraries
+	* Refactor your assignment 3 code to use GraphX
 
 
