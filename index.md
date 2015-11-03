@@ -31,14 +31,14 @@ We have the following rooms and hours:
 | L6  | Tue 15.09 | [Programming for performance](lectures/06-programming-for-performance.pptx)	| Lars Ailo |
 | L7  | Thu 24.09 | [Performance evaluation](lectures/07-performance-evaluation.pptx) | Lars Ailo |
 | L8  | Thu 01.10 | [Parallel program performance evaluation](lectures/08-parallel-program-performance.pptx) | Lars Ailo |
-| -   | Thu 08.10 | Cancelled due to a major water leak!	| - |
+|     | Thu 08.10 | Postponed due to a major water leak!	| - |
 | L10 | Thu 15.10 | Guest lecture: Scala and Spark			| Inge Alexander Raknes |
 | L9  | Thu 22.10 | [Data-intensive computing](lectures/10-data-intensive-computing.pptx) | Lars Ailo |
 | L11 | Thu 29.10 | [Spark libraries](lectures/11-spark-libraries.pptx) | Lars Ailo |
-| -   | Thu 05.11 | Cancelled 	| Lars Ailo |
-| L12 | Thu 12.11 | Guest lecture and/or summary			| Lars Ailo |
-|	  | Thu 19.11 | Backup slot 							| - |
-|	  | Thu 26.11 | Exam 									| - |
+|     | Thu 05.11 | Cancelled 	| Lars Ailo |
+| L12 | Tue 10.11 or Thu 12.11 | Guest lecture | ? |
+| L13 | Tue 17.11 | Summary	| Lars Ailo |
+|     | Thu 26.11 | Exam | - |
 
 ## Readings
 
