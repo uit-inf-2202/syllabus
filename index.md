@@ -105,9 +105,9 @@ The following are suggested **additional readings**:
 
 | Project |	Start      | Due     | Subject | Lecturer |
 |---------|------------|---------|----------|---------|
-| P1 	  | 18.08.15   | 14.09.15 | Concurrent B+ trees ([repository](https://github.com/uit-inf-2202/assignment-1)) and ([public zip](assignments/assignment-1.zip)) | Ibrahim |
+| P1 	  | 18.08.15   | 14.09.15 | Concurrent B+ trees ([repository](https://github.com/uit-inf-2202/assignment-1) and [public zip](assignments/assignment-1.zip)) | Ibrahim |
 | P2	  | 17.09.15   | 12.10.15 | Deduplication ([repository](https://github.com/uit-inf-2202/assignment-2) and [public zip](assignments/assignment-2.zip)) | Ibrahim |
-| P3      | 13.10.15   | 06.11.15 | PageRank using Spark on AWS ([repository](https://github.com/uit-inf-2202/assignment-3)) | Lars Ailo and Ibrahim |
+| P3      | 13.10.15   | 06.11.15 | PageRank using Spark on AWS ([repository](https://github.com/uit-inf-2202/assignment-3) and [public zip](assignments/assignment-3.zip) ) | Lars Ailo and Ibrahim |
 
 Note! The mandatory assignment text and pre-code are available in private repositories accessible only for the members of the uit-inf-2202 github organization. 
 
@@ -145,7 +145,11 @@ Note! The mandatory assignment text and pre-code are available in private reposi
 10.	Scala and Spark
 	* Run the provided WordCount in assignment 3 on AWS
 	* Implement grep in Scala and run it on AWS
-11. Scala libraries
+11. Spark libraries
 	* Refactor your assignment 3 code to use GraphX
-
+12. Stallo
+	* None
+13. Summary lecture
+	* [Exam from 2013](https://uit.no/Content/363908/INF-2202%20H13.pdf)
+	* [Sample exam](http://www.cs.uit.no/~larsab/inf2202/fall13/sample%20exam.pdf) (from 2013)
 
