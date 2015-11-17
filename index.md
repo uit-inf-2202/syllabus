@@ -36,7 +36,7 @@ We have the following rooms and hours:
 | L9  | Thu 22.10 | [Data-intensive computing](lectures/10-data-intensive-computing.pptx) | Lars Ailo |
 | L11 | Thu 29.10 | [Spark libraries](lectures/11-spark-libraries.pptx) | Lars Ailo |
 |     | Thu 05.11 | Cancelled | Lars Ailo |
-| L12 | Tue 10.11 | Guest lecture | Steinar Trædal-Henden |
+| L12 | Tue 10.11 | Guest lecture: Stallo (no slides) | Steinar Trædal-Henden |
 | L13 | Tue 17.11 | Summary	(no slides) | Lars Ailo |
 |     | Thu 26.11 | Exam | - |
 
