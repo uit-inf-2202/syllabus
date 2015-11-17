@@ -37,7 +37,7 @@ We have the following rooms and hours:
 | L11 | Thu 29.10 | [Spark libraries](lectures/11-spark-libraries.pptx) | Lars Ailo |
 |     | Thu 05.11 | Cancelled | Lars Ailo |
 | L12 | Tue 10.11 | Guest lecture | Steinar Trædal-Henden |
-| L13 | Tue 17.11 | Summary	| Lars Ailo |
+| L13 | Tue 17.11 | Summary	(no slides) | Lars Ailo |
 |     | Thu 26.11 | Exam | - |
 
 ## Readings
@@ -105,9 +105,9 @@ The following are suggested **additional readings**:
 
 | Project |	Start      | Due     | Subject | Lecturer |
 |---------|------------|---------|----------|---------|
-| P1 	  | 18.08.15   | 14.09.15 | Concurrent B+ trees ([repository](https://github.com/uit-inf-2202/assignment-1) and [public zip](assignments/assignment-1.zip)) | Ibrahim |
-| P2	  | 17.09.15   | 12.10.15 | Deduplication ([repository](https://github.com/uit-inf-2202/assignment-2) and [public zip](assignments/assignment-2.zip)) | Ibrahim |
-| P3      | 13.10.15   | 06.11.15 | PageRank using Spark on AWS ([repository](https://github.com/uit-inf-2202/assignment-3) and [public zip](assignments/assignment-3.zip) ) | Lars Ailo and Ibrahim |
+| P1 	  | 18.08.15   | 14.09.15 | Concurrent B+ trees ([private repository](https://github.com/uit-inf-2202/assignment-1) and [public zip](assignments/assignment-1.zip)) | Ibrahim |
+| P2	  | 17.09.15   | 12.10.15 | Deduplication ([private repository](https://github.com/uit-inf-2202/assignment-2) and [public zip](assignments/assignment-2.zip)) | Ibrahim |
+| P3      | 13.10.15   | 06.11.15 | PageRank using Spark on AWS ([private repository](https://github.com/uit-inf-2202/assignment-3) and [public zip](assignments/assignment-3.zip) ) | Lars Ailo and Ibrahim |
 
 Note! The mandatory assignment text and pre-code are available in private repositories accessible only for the members of the uit-inf-2202 github organization. 
 
